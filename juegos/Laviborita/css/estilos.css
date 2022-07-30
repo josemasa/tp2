@@ -1,0 +1,33 @@
+* {
+    font-family: "Square Peg", cursive;
+    font-size: 50px;
+}
+
+.viborita,
+.info {
+    max-width: 500px;
+}
+
+.info {
+    border: 2px black solid;
+    border-radius: 9px;
+    padding: 20px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.viborita {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.start {
+    background-color: cadetblue;
+    border-radius: 9px;
+}
+
+.gameover {
+    display: none;
+}
