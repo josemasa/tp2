@@ -11,6 +11,7 @@
   font-size: 20px;
   font-family: "Roboto", sans-serif;
 }
+
 .jms {
   background-color: #0b0c0c;
 
@@ -24,6 +25,7 @@
   color: #000000;
   text-decoration: none;
 }
+
 .t3 {
   display: flex;
   justify-content: center;
@@ -34,6 +36,7 @@
   background-color: var(--color1);
   padding: 10px;
 }
+
 /* header */
 
 .header {
@@ -49,6 +52,7 @@
   align-items: center;
   width: 100%;
 }
+
 .logo {
   cursor: pointer;
 }
@@ -70,33 +74,34 @@
   margin: 50px;
   padding: 10px;
 }
+
 .listajuegos {
   background-color: var(--color2);
   border: #000000 5px solid;
   border-radius: 28px;
-  display: flex;
   margin-top: 20px;
   padding: 15px;
-  flex-direction: row;
-  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
 }
+
 .card {
-  width: 250px;
   display: flex;
   margin: 10px 10px 10px 10px;
   flex-direction: column;
 }
 
 .card:hover {
-  transform: scale(1.08);
+  background-color: #9d5358;
 }
 
 /*--------------- footer ---------------*/
 
 /* quienes somos  */
 .card {
-  width: 15rem;
+  width: 12rem;
 }
+
 /* formulario  */
 .contenedor-formulario {
   margin-top: 30px;
@@ -108,11 +113,13 @@
   width: 500px;
   background-color: var(--color1);
 }
+
 .formularios {
   display: flex;
   flex-direction: column;
   padding: 20px;
 }
+
 .submit {
   width: 30%;
   padding: 13px 13px;
@@ -135,29 +142,37 @@
   color: #000000;
   padding: 5px;
 }
+
 small {
   background-color: #eceff1;
   text-align: center;
 }
+
 .insta {
   margin: 10px;
 }
+
 .wsp {
   margin: 10px;
 }
+
 .wsp:hover {
   transform: scale(1.3);
 }
+
 .insta:hover {
   transform: scale(1.3);
 }
+
 /*---------------Fin footer ---------------*/
 /* media querry  */
 @media screen and (max-width: 630px) {
+
   /* general  */
   .jms {
     margin: 5px 0px 0px 0px;
   }
+
   .t4 {
     font-size: 10px;
     padding: 0px;
@@ -176,12 +191,14 @@ small {
     width: 300px;
     background-color: #1b3039;
   }
+
   .formularios {
     display: flex;
     flex-direction: column;
     font-size: 15px;
     padding: 5px;
   }
+
   .submit {
     width: 20%;
     padding: 13px 13px;
@@ -189,5 +206,6 @@ small {
     border: none;
     background-color: aquamarine;
   }
+
   /* footer  */
 }
