@@ -1,7 +1,8 @@
-*{
+* {
     transition: all0.25s;
 }
-body{
+
+body {
     font-size: 120%;
     margin: 0;
     padding: 0;
@@ -27,22 +28,23 @@ body{
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
-    
+
 }
 
-.opcion{
-    width: 70vw;
+.opcion {
+    text-align: center;
+    width: 80vw;
     background: white;
     margin: 10px;
     border-radius: 10px;
     cursor: pointer;
 }
 
-.opcion:hover{
+.opcion:hover {
     background: rgb(38, 142, 190);
 }
 
-.img-opciones{
+.img-opciones {
     width: 300px;
     height: 200px;
     object-fit: contain;
